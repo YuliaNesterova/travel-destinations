@@ -1,0 +1,11 @@
+.content__title {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+}
+
+@media (max-width: 562px) {
+  .content__title {
+    width: 100%
+  }
+}

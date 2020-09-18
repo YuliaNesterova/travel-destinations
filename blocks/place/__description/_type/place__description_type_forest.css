@@ -1,0 +1,9 @@
+.place__description_type_forest {
+  grid-area: text-forest;
+}
+
+@media (max-width: 562px) {
+  .place__description_type_forest {
+    order: 2;
+  }
+}

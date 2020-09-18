@@ -1,0 +1,11 @@
+.header__links {
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+@media (max-width: 375px) {
+  .header__links {
+    flex-direction: column;
+  }
+}

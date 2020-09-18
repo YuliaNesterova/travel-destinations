@@ -1,0 +1,22 @@
+.footer {
+  width: 90%;
+  margin: auto;
+  background-color: #f2c4a2;
+  min-height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 562px) {
+  .footer {
+    width: 100%;
+    min-height: 200px;
+  }
+}

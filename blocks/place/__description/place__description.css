@@ -1,0 +1,12 @@
+.place__description {
+  padding: 60px 65px 50px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .place__description {
+    padding: 20px;
+  }
+}

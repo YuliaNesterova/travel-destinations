@@ -1,0 +1,11 @@
+.people__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+@media (max-width: 562px) {
+  .people__title {
+    text-align: center;
+  }
+}

@@ -1,0 +1,20 @@
+.intro__image {
+  width: 320px;
+  height: 320px;
+  margin-right: 75px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .intro__image {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 562px) {
+  .intro__image {
+    width: 100%;
+    align-self: center;
+    object-position: top;
+  }
+}

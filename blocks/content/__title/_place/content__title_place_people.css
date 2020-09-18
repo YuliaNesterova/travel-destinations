@@ -1,0 +1,10 @@
+.content__title_place_people {
+  width: 40%;
+}
+
+@media (max-width: 562px) {
+  .content__title_place_people {
+    width: 100%;
+    text-align: center;
+  }
+}

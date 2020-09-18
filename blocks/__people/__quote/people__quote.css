@@ -1,0 +1,10 @@
+.people__quote {
+  list-style: none;
+  max-width: 20%;
+}
+
+@media (max-width: 562px) {
+  .people__quote {
+    min-width: 80%;
+  }
+}

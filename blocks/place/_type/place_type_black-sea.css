@@ -1,0 +1,14 @@
+.place_type_black-sea {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "image-black-sea text-black-sea";
+}
+
+@media (max-width: 562px) {
+  .place_type_black-sea {
+    display: flex;
+    flex-direction: column;
+  }
+}

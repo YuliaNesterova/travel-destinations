@@ -1,0 +1,9 @@
+.place__description_type_mountains {
+  grid-area: text-mountains;
+}
+
+@media (max-width: 562px) {
+  .place__description_type_mountains {
+    order: 2;
+  }
+}

@@ -1,0 +1,20 @@
+.intro {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 118px;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    width: 90%;
+  }
+}
+
+@media (max-width: 562px) {
+  .intro {
+    width: 100%;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,13 @@
+.header__report-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 12px;
+  transition: opacity 0.2s;
+  
+}
+
+
+.header__report-link:hover {
+  opacity: 0.6;
+}

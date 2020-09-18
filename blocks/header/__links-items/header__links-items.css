@@ -1,0 +1,15 @@
+.header__links-items {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.header__links-items:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 375px) {
+  .header__links-items {
+    margin: 0 0 18px 0;
+    
+  }
+}

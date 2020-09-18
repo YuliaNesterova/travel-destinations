@@ -1,0 +1,14 @@
+.content__subtitle {
+  text-transform: uppercase;
+  color: #fac273;
+  font-size: 10px;
+  font-weight: 700;
+  font-stretch: condensed;
+  margin: 0 0 20px 0;
+}
+
+@media (max-width: 562px) {
+  .content__subtitle {
+    text-align: center;
+  }
+}

@@ -1,0 +1,15 @@
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+}
+
+
+@media (max-width: 562px) {
+  .intro__text {
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}

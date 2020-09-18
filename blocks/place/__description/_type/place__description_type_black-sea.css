@@ -1,0 +1,9 @@
+.place__description_type_black-sea {
+  grid-area: text-black-sea;
+}
+
+@media (max-width: 562px) {
+  .place__description_type_black-sea {
+    order: 2;
+  }
+}
